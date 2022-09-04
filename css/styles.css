@@ -81,7 +81,7 @@ li a:hover {
   color: #2196f3;
 }
 li a:focus {
-  color: #757575;
+  color: #2196f3;
 }
 .item {
   /* Студія */
@@ -110,7 +110,8 @@ li a:focus {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
+  display: flex;
+  align-self: center
   color: #212121;
 }
 
@@ -158,7 +159,7 @@ li a:focus {
   margin-left: auto;
   margin-right: auto;
   background-position: center;
-  width: 1600px;
+  max-width: 1600px;
   height: 600px;
 }
 .section-2 {
@@ -370,12 +371,12 @@ li a:focus {
   /* img */
   background: url(5844.jpg);
   border-radius: 0px;
-  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15);
+
 }
 .img-7 {
   background: url(16166.jpg);
   border-radius: 0px;
-  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15);
+  
 }
 
 .img-8 {
@@ -383,15 +384,18 @@ li a:focus {
 
   background: url(4853.jpg);
   border-radius: 0px;
-  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15);
+ 
 }
 .social-list {
   display: flex;
-  gap: 30px;
+  gap: 10px;
   justify-content: center;
   margin-top: 10px;
 }
-
+.list-comand{
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15);
+ background-color: #f5f4fa;
+}
 .icons-svg {
   color: #757575;
 }
@@ -399,7 +403,7 @@ li a:focus {
 .contacts-main {
   padding-top: 30px;
   padding-bottom: 30px;
-  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15);
+  
 }
 .section-title {
   /* Ігор Дем'яненко */
@@ -499,7 +503,10 @@ li a:focus {
   color: #757575;
 }
 .social-icon {
-  fill: #757575;
+  fill: #757575
+}
+.social-icon-3{
+  fill: #f5f4fa;
 }
 
 .social-icon:hover {
@@ -516,14 +523,26 @@ li a:focus {
 }
 .social-link-2 {
   fill: #757575;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  border-color: #2196f3;
 }
-.social-link:hover:focus {
-  fill: #757575;
+.social-link:hover{
+  fill: #000000;
   background-color: #2196f3;
 }
-.social-link-2:hover:focus{
+.social-link:focus{
+  fill:  #000000;
+  background-color: #2196f3;}
+.social-link-2:hover{
   fill:#2196f3;
-  background: #f5f4fa;
+border-color: #2196f3;
+}
+.social-link-2focus{
+  border-color: #2196f3;
+  fill: #2196f3;
 }
 .clients {
   font-style: normal;
@@ -531,7 +550,8 @@ li a:focus {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  margin-bottom: 50px;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .brand-icons {
@@ -541,8 +561,9 @@ li a:focus {
   margin-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
-  fill: #757575;
+  fill: #f5f4fa; ;
   border-radius: 100%;
+  border: #757575;
 }
 .brand-icons:focus {
   fill: #2196f3;
@@ -551,7 +572,15 @@ li a:focus {
 }
 .brand-icons:hover {
   fill: #2196f3;
+  border-color: #2196f3;
+  
 }
+.brand-icon{
+  width: 106px;
+  height: 60px;
+}
+
+
 ul {
   list-style: none;
   margin: 0;
@@ -562,6 +591,9 @@ ul {
 ::before {
   box-sizing: border-box;
 }
+
+
+
 user agent stylesheet ul {
   display: block;
   list-style-type: disc;
@@ -579,14 +611,10 @@ user agent stylesheet ul {
   padding-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
-  height: 252px;
+
 }
 .footer-box {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding-left: 70px;
+ margin-left: 70px;
 }
 
 .footer-text {
@@ -597,6 +625,7 @@ user agent stylesheet ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: white;
+  margin-bottom: auto;
 }
 .footer-icons {
   display: flex;
@@ -672,3 +701,20 @@ user agent stylesheet ul {
   display: flex;
   align-items: baseline;
 }
+.social-link-3{
+  fill: #f5f4fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--primary-text-color);
+  border-radius: 50%;
+}
+.social-link-3:hover{
+ fill: #f5f4fa;
+  background-color: #2196f3;
+}
+.social-link-3:focus{
+  fill: #f5f4fa;
+  background-color: #2196f3;}

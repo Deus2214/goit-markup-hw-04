@@ -122,7 +122,8 @@ li a:focus {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
+  display: flex;
+  align-items: center;
   color: #212121;
 }
 .mail-icon {
@@ -137,7 +138,8 @@ li a:focus {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
+  display: flex;
+  align-items: center;
   color: #757575;
 }
 .tell-icon {
@@ -393,7 +395,7 @@ li a:focus {
   margin-top: 10px;
 }
 .list-comand{
-  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
  background-color: #f5f4fa;
 }
 .icons-svg {
@@ -510,7 +512,7 @@ li a:focus {
 }
 
 .social-icon:hover {
-  fill: #2f303a;
+  fill: #f5f4fa;
 }
 .social-link {
   display: flex;
@@ -528,13 +530,15 @@ li a:focus {
   display: flex;
   align-self: center;
   border-color: #2196f3;
+  border: 1px solid;
+  border-color: #757575;
 }
 .social-link:hover{
-  fill: #000000;
+  fill: #f5f4fa;
   background-color: #2196f3;
 }
 .social-link:focus{
-  fill:  #000000;
+  fill:  #f5f4fa;
   background-color: #2196f3;}
 .social-link-2:hover{
   fill:#2196f3;
@@ -556,30 +560,40 @@ border-color: #2196f3;
 
 .brand-icons {
   display: flex;
+  align-items: center;
   justify-content: center;
-  gap: 30px;
-  margin-bottom: 94px;
+  width: 170px;
+  height: 92px;
+gap: 30px;
+  border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
-  fill: #f5f4fa; ;
-  border-radius: 100%;
-  border: #757575;
-}
+  margin-bottom: 94px;
+ fill: #f5f4fa;}
+
+ 
+
+
 .brand-icons:focus {
   fill: #2196f3;
   background: #f5f4fa;
   box-sizing: content-box;
+  border-color: #2196f3;
 }
 .brand-icons:hover {
   fill: #2196f3;
   border-color: #2196f3;
   
 }
+
 .brand-icon{
   width: 106px;
   height: 60px;
-}
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+}
 
 ul {
   list-style: none;
@@ -625,7 +639,7 @@ user agent stylesheet ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: white;
-  margin-bottom: auto;
+  margin-bottom: 20px;
 }
 .footer-icons {
   display: flex;
@@ -708,8 +722,8 @@ user agent stylesheet ul {
   justify-content: center;
   width: 44px;
   height: 44px;
-  background-color: var(--primary-text-color);
   border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .social-link-3:hover{
  fill: #f5f4fa;

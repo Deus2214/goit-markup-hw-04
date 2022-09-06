@@ -111,7 +111,7 @@ li a:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   display: flex;
-  align-self: center
+  align-self: center;
   color: #212121;
 }
 
@@ -166,6 +166,7 @@ li a:focus {
 }
 .section-2 {
   padding: 94px 0;
+  background-color: #f5f4fa;
 }
 .title {
   /* Ефективні рішення для вашого бізнесу */
@@ -373,12 +374,10 @@ li a:focus {
   /* img */
   background: url(5844.jpg);
   border-radius: 0px;
-
 }
 .img-7 {
   background: url(16166.jpg);
   border-radius: 0px;
-  
 }
 
 .img-8 {
@@ -386,7 +385,6 @@ li a:focus {
 
   background: url(4853.jpg);
   border-radius: 0px;
- 
 }
 .social-list {
   display: flex;
@@ -394,9 +392,9 @@ li a:focus {
   justify-content: center;
   margin-top: 10px;
 }
-.list-comand{
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
- background-color: #f5f4fa;
+.list-comand {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .icons-svg {
   color: #757575;
@@ -405,7 +403,6 @@ li a:focus {
 .contacts-main {
   padding-top: 30px;
   padding-bottom: 30px;
-  
 }
 .section-title {
   /* Ігор Дем'яненко */
@@ -504,16 +501,19 @@ li a:focus {
 
   color: #757575;
 }
-.social-icon {
-  fill: #757575
-}
-.social-icon-3{
+
+.social-icon-3 {
   fill: #f5f4fa;
 }
 
 .social-icon:hover {
   fill: #f5f4fa;
 }
+
+.social-icon:focus {
+  fill: #f5f4fa;
+}
+
 .social-link {
   display: flex;
   align-items: center;
@@ -522,6 +522,7 @@ li a:focus {
   height: 44px;
   background-color: var(--primary-text-color);
   border-radius: 50%;
+  fill: #757575;
 }
 .social-link-2 {
   fill: #757575;
@@ -531,22 +532,22 @@ li a:focus {
   align-self: center;
   border-color: #2196f3;
   border: 1px solid;
-  border-color: #757575;
 }
-.social-link:hover{
+.social-link:hover {
   fill: #f5f4fa;
   background-color: #2196f3;
 }
-.social-link:focus{
-  fill:  #f5f4fa;
-  background-color: #2196f3;}
-.social-link-2:hover{
-  fill:#2196f3;
-border-color: #2196f3;
+.social-link:focus {
+  fill: #f5f4fa;
+  background-color: #2196f3;
 }
-.social-link-2focus{
-  border-color: #2196f3;
+.social-link-2:hover {
   fill: #2196f3;
+  border-color: #2196f3;
+}
+.social-link-2:focus {
+  fill: #2196f3;
+  border-color: #2196f3;
 }
 .clients {
   font-style: normal;
@@ -554,47 +555,31 @@ border-color: #2196f3;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  padding-top: 94px;
+  margin-bottom: 94px;
   padding-bottom: 50px;
 }
 
 .brand-icons {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 170px;
-  height: 92px;
-gap: 30px;
-  border-radius: 4px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 94px;
- fill: #f5f4fa;}
-
- 
-
-
-.brand-icons:focus {
-  fill: #2196f3;
-  background: #f5f4fa;
-  box-sizing: content-box;
-  border-color: #2196f3;
+  gap: 30px;
 }
+
 .brand-icons:hover {
   fill: #2196f3;
   border-color: #2196f3;
+}
+
+.brand-icon {
+  width: 170px;
+  height: 92px;
+}
+.always-clients{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
   
 }
-
-.brand-icon{
-  width: 106px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
 ul {
   list-style: none;
   margin: 0;
@@ -605,8 +590,6 @@ ul {
 ::before {
   box-sizing: border-box;
 }
-
-
 
 user agent stylesheet ul {
   display: block;
@@ -625,10 +608,9 @@ user agent stylesheet ul {
   padding-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
-
 }
 .footer-box {
- margin-left: 70px;
+  margin-left: 70px;
 }
 
 .footer-text {
@@ -715,7 +697,7 @@ user agent stylesheet ul {
   display: flex;
   align-items: baseline;
 }
-.social-link-3{
+.social-link-3 {
   fill: #f5f4fa;
   display: flex;
   align-items: center;
@@ -725,10 +707,11 @@ user agent stylesheet ul {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
-.social-link-3:hover{
- fill: #f5f4fa;
+.social-link-3:hover {
+  fill: #f5f4fa;
   background-color: #2196f3;
 }
-.social-link-3:focus{
+.social-link-3:focus {
   fill: #f5f4fa;
-  background-color: #2196f3;}
+  background-color: #2196f3;
+}

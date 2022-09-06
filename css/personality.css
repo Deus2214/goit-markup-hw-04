@@ -130,8 +130,8 @@ ul {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
   color: #757575;
 }
 .main-title {

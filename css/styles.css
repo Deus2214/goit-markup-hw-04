@@ -164,9 +164,12 @@ li a:focus {
   max-width: 1600px;
   height: 600px;
 }
-.section-2 {
+.our-team {
   padding: 94px 0;
   background-color: #f5f4fa;
+}
+.working{
+  padding: 94px 0;
 }
 .title {
   /* Ефективні рішення для вашого бізнесу */
@@ -513,6 +516,11 @@ li a:focus {
 .social-icon:focus {
   fill: #f5f4fa;
 }
+.clients-team{
+  background-color: #f5f4fa;
+  padding: 94px 0;
+}
+
 
 .social-link {
   display: flex;
@@ -530,8 +538,8 @@ li a:focus {
   height: 100%;
   display: flex;
   align-self: center;
-  border-color: #2196f3;
-  border: 1px solid;
+ 
+  border: 1px solid #AFB1B8;
 }
 .social-link:hover {
   fill: #f5f4fa;
@@ -555,8 +563,7 @@ li a:focus {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  margin-bottom: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .brand-icons {
